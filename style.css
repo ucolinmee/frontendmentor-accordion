@@ -1,0 +1,50 @@
+.background-top {
+    height: 40vh;
+    background-image: url("./assets/images/background-pattern-mobile.svg");
+}
+
+.background-bottom {
+    height: 60vh;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.card {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+.card > .header {
+    display: flex;
+}
+
+img {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
